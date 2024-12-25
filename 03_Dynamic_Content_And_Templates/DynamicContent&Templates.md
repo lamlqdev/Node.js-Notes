@@ -109,22 +109,22 @@ router.get("/", (req, res, next) => {
 Example of updated `shop.pug` file:
 
 ```pug
-    main
-      if products.length > 0
-        div.grid
-        each product in products
-          article.card.product-item
-            header.card__header
-              h1.product__title #{product.title}
-            div.card__image
-              img(src="https://cdn.pixabay.com/photo/2016/03/31/20/51/book-1296045_960_720.png", alt="A Book")
-            div.card__content
-              h2.product__price $19.99
-              p.product__description A very interesting book about so many even more interesting things!
-            div.card__actions
-              button.btn Add to Cart
-      else
-        h2 No products found.
+main
+  if products.length > 0
+    div.grid
+    each product in products
+      article.card.product-item
+        header.card__header
+          h1.product__title #{product.title}
+        div.card__image
+          img(src="https://cdn.pixabay.com/photo/2016/03/31/20/51/book-1296045_960_720.png", alt="A Book")
+        div.card__content
+          h2.product__price $19.99
+          p.product__description A very interesting book about so many even more interesting things!
+        div.card__actions
+          button.btn Add to Cart
+  else
+    h2 No products found.
 ```
 
 ### Creating Layouts
@@ -161,7 +161,8 @@ html(lang="en")
 
 #### 2. Extend the Layout in Child Views
 
-In `views/shop.pug` 
+In `views/shop.pug`
+
 - Use the `extends` keyword to link to the main layout file and define the content that will be injected into the layout's blocks.
 
 - Use **`block`**: Define placeholders that can be filled with custom content or styles in individual pages.
