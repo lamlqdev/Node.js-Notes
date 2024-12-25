@@ -207,7 +207,7 @@ block content
 ```javascript
 const app = express();
 
-app.set("view engine", "ejs"); // Use Pug as the default engine
+app.set("view engine", "ejs"); // Use Ejs as the default engine
 app.set("views", "views"); // 'views' is the default directory
 ```
 
@@ -299,7 +299,7 @@ Step to use Partials
   - `<%- %>`: Outputs unescaped HTML (useful for trusted content).
   - `<%= %>`: Escapes HTML to prevent XSS attacks.
 
-#### Example
+**Example**
 
 ```ejs
 <%- include('includes/head') %>
@@ -308,9 +308,10 @@ Step to use Partials
 ```
 
 #### Dynamic Navigation with Active Class
+
 - Add logic to highlight the active link dynamically.
 - Use a ternary operator to conditionally add the `active` class:
-  
+
 ```ejs
 <header class="main-header">
     <nav class="main-header__nav">
