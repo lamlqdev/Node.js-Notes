@@ -9,7 +9,7 @@ Templating engines are used to embed dynamic content into HTML pages. They repla
 - The templating engine processes placeholders and generates the final HTML.
 
 <p align="center">
-  <img src="../assets/Module03/Slide1.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module03/Slide1.png" alt="Templating Engines" width="600">
 </p>
 
 ### Popular Templating Engines
@@ -42,7 +42,7 @@ Templating engines are used to embed dynamic content into HTML pages. They repla
 - **Handlebars**: HTML-based, simpler but more restrictive compared to EJS.
 
 <p align="center">
-  <img src="../assets/Module03/Slide2.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module03/Slide2.png" alt="Available Templating Engines" width="600">
 </p>
 
 ### Install
