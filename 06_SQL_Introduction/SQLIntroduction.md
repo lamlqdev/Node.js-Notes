@@ -141,24 +141,24 @@
 **SQL**
 
 - **Schema**:
-- Strong, predefined schema.
-- Data structure is strictly enforced.
+  - Strong, predefined schema.
+  - Data structure is strictly enforced.
 - **Relations**:
-- Data is split across multiple tables and connected through relationships.
+  - Data is split across multiple tables and connected through relationships.
 - **Best Use Case**:
-- Applications with complex, highly relational data.
-- Scenarios requiring strong consistency and structured data.
+  - Applications with complex, highly relational data.
+  - Scenarios requiring strong consistency and structured data.
 
 **NoSQL**
 
 - **Schema**:
-- Schemaless, flexible structure.
-- Mixed data structures within the same collection are allowed.
+  - Schemaless, flexible structure.
+  - Mixed data structures within the same collection are allowed.
 - **Relations**:
-- Minimal to no relations; data is often duplicated for efficiency.
+  - Minimal to no relations; data is often duplicated for efficiency.
 - **Best Use Case**:
-- Applications needing high performance for frequent read/write operations.
-- Scenarios where data structure varies or changes frequently.
+  - Applications needing high performance for frequent read/write operations.
+  - Scenarios where data structure varies or changes frequently.
 
 <p align="center">
   <img src="../assets/Module06/Slide9.png" alt="SQL vs NOSQL" width="600">
