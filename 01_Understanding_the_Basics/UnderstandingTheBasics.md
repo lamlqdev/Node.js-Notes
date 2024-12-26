@@ -12,7 +12,7 @@
   - Sends responses back to the client (HTML, JSON, files).
 
 <p align="center">
-  <img src="../assets/Module01/Slide1.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module01/Slide1.png" alt="How the Web works" width="600">
 </p>
 
 ### Request/Response Structure
@@ -47,7 +47,7 @@ server.listen(3000);
 - Event listeners (e.g., `http.createServer`) stay active to process requests indefinitely.
 
 <p align="center">
-  <img src="../assets/Module01/Slide3.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module01/Slide3.png" alt="Node.js Lifecycle" width="600">
 </p>
 
 ## 3. Understanding Requests and Responses
@@ -66,7 +66,7 @@ server.listen(3000);
 - Buffers: Temporary storage for incoming data, processed after all parts are received.
 
 <p align="center">
-  <img src="../assets/Module01/Slide4.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module01/Slide4.png" alt="Stream & Buffers" width="600">
 </p>
 
 Example:
@@ -95,7 +95,7 @@ req.on("end", () => {
 - Problem: Calling `res.end()` too early can cause errors like "cannot set headers" because the response is finalized.
 
 <p align="center">
-  <img src="../assets/Module01/Slide5.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module01/Slide5.png" alt="Asynchronous Code" width="600">
 </p>
 
 ### Blocking vs Non-Blocking Code
@@ -111,7 +111,7 @@ req.on("end", () => {
 - **Worker Pool:** Handles time-consuming tasks (file I/O, database queries) in separate threads to avoid blocking the event loop.
 
 <p align="center">
-  <img src="../assets/Module01/Slide6.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module01/Slide6.png" alt="Behind the scenes of Nodejs" width="600">
 </p>
 
 ## 6. Summary
@@ -123,5 +123,5 @@ req.on("end", () => {
 - Understanding streams, buffers, and callbacks is essential for effective use of Node.js.
 
 <p align="center">
-  <img src="../assets/Module01/Slide7.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module01/Slide7.png" alt="Module Summary" width="600">
 </p>
