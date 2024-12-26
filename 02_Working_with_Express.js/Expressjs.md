@@ -5,7 +5,7 @@
 Express.js is a powerful tool for creating Node.js applications, making it easier to handle requests, build APIs, and focus on application-specific logic.
 
 <p align="center">
-  <img src="../assets/Module02/Slide1.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module02/Slide1.png" alt="What is Express.js" width="600">
 </p>
 
 Express.js is not just a collection of helper functions but also:
@@ -14,7 +14,7 @@ Express.js is not just a collection of helper functions but also:
 - A set of rules: Guiding how to organize and work with the code to write clean code.
 
 <p align="center">
-  <img src="../assets/Module02/Slide2.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module02/Slide2.png" alt="Role of Express.js" width="600">
 </p>
 
 ## 2. Usage of Express.js
@@ -53,7 +53,7 @@ Middleware are functions executed sequentially as a request passes through the a
 - Handling **logging, authentication, and error management**.
 
 <p align="center">
-  <img src="../assets/Module02/Slide3.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module02/Slide3.png" alt="Middleware" width="600">
 </p>
 
 ### Key Features
@@ -86,7 +86,7 @@ app.use((req, res, next) => {
 ## 4. Routing
 
 <p align="center">
-  <img src="../assets/Module02/Slide4.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module02/Slide4.png" alt="Routing" width="600">
 </p>
 
 ### Defining Routes
@@ -223,5 +223,5 @@ app.get("/", (req, res) => {
 - Proper organization and use of tools like `body-parser`, `express.static`, and `express.Router()` ensure efficient development.
 
 <p align="center">
-  <img src="../assets/Module02/Slide5.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module02/Slide5.png" alt="Module Summary" width="600">
 </p>
