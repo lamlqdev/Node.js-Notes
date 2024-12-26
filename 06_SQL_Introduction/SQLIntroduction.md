@@ -26,7 +26,7 @@
   <img src="../assets/Module06/Slide2.png" alt="What's SQL?" width="600">
 </p>
 
-1. **Strong Data Schema**:
+2. **Strong Data Schema**:
 
 - Clearly defined schema for each table.
 - Specifies field types: number, string, boolean, etc.
@@ -44,7 +44,7 @@
   <img src="../assets/Module06/Slide3.png" alt="Core SQL Database Characteristics" width="600">
 </p>
 
-1. **Query Language**:
+4. **Query Language**:
 
 - Uses structured commands (queries) to interact with data.
 - Example: `SELECT * FROM Users WHERE age > 28;`
@@ -91,7 +91,7 @@
   <img src="../assets/Module06/Slide6.png" alt="What's NoSQL" width="600">
 </p>
 
-1. **Performance and Scalability**:
+3. **Performance and Scalability**:
 
 - Focus on speed and efficiency for large-scale applications.
 - **No Joins**:
@@ -105,9 +105,9 @@
 
 # SQL vs. NoSQL: Comparison
 
-## Scaling Approaches:
+## Scaling Approaches
 
-1. **Horizontal Scaling**:
+1. **Horizontal Scaling**
 
 - **Definition**: Adding more servers to distribute the data.
 - **Advantages**:
@@ -136,9 +136,9 @@
   <img src="../assets/Module06/Slide8.png" alt="Horizontal vs Vertical Scaling" width="600">
 </p>
 
-## Core Characteristics:
+## Core Characteristics
 
-### SQL:
+**SQL**
 
 - **Schema**:
 - Strong, predefined schema.
@@ -149,7 +149,7 @@
 - Applications with complex, highly relational data.
 - Scenarios requiring strong consistency and structured data.
 
-### NoSQL:
+**NoSQL**
 
 - **Schema**:
 - Schemaless, flexible structure.
@@ -164,30 +164,31 @@
   <img src="../assets/Module06/Slide9.png" alt="SQL vs NOSQL" width="600">
 </p>
 
-## Performance:
+## Performance
 
-1. **SQL**:
+**SQL**:
 
 - Great for structured data with strong consistency requirements.
 - May struggle with high-throughput applications due to complex joins.
 
-2. **NoSQL**:
+**NoSQL**:
 
 - Excels in high-performance scenarios with large-scale data.
 - Optimized for fast read/write without joins.
 
-## Choosing Between SQL and NoSQL:
+## Choosing Between SQL and NoSQL
 
 **SQL**:
+
 - Ideal for applications requiring strong data consistency, complex relationships, and well-structured data.
 - Examples: Banking systems, enterprise resource planning (ERP), and customer relationship management (CRM).
 
 **NoSQL**:
+
 - Best suited for applications needing flexibility, scalability, and high throughput.
 - Examples: Real-time analytics, e-commerce platforms, and social media feeds.
 
-
-## Practical Application:
+## Practical Application
 
 - Some applications can benefit from **both SQL and NoSQL**:
 - SQL for managing structured and less frequently changing data (e.g., user profiles).
