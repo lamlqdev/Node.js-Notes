@@ -10,7 +10,7 @@ MVC is a design pattern that emphasizes **separation of concerns**, ensuring tha
 This pattern makes your application more maintainable, testable, and scalable by clearly defining the roles of each part.
 
 <p align="center">
-  <img src="../assets/Module04/Slide1.png" alt="What is Node.js" width="600">
+  <img src="../assets/Module04/Slide1.png" alt="What's MVC" width="600">
 </p>
 
 ## Components of MVC
