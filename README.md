@@ -32,14 +32,14 @@ A comprehensive guide to learning Node.js from basics to advanced concepts.
    - Dynamic data rendering
    - Layouts and partials
 
-5. [Model View Controller (MVC)](04_Model_View_Controller/Code_Example)
+5. [Model View Controller (MVC)](04_Model_View_Controller/ModelViewController.md)
    - MVC architecture
    - Models implementation
    - Controllers logic
    - Views organization
    - Data flow in MVC
 
-6. [Dynamic Routes & Advanced Models](05_Dynamic_Routes_And_Advanced_Models/Code_Example)
+6. [Dynamic Routes & Advanced Models](05_Dynamic_Routes_And_Advanced_Models/DynamicRoutesAndAdvancedModels.md)
    - Dynamic routing
    - Advanced model operations
    - Query parameters
