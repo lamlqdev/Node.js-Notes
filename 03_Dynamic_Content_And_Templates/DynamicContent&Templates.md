@@ -196,11 +196,11 @@ block content
       h2 No products found.
 ```
 
-## 2. Handlebars
+## 3. Handlebars
 
 **Note:** The content in the course is out-date
 
-## 3. EJS
+## 4. EJS
 
 ### Configuring Templating Engines
 
