@@ -53,6 +53,13 @@ A comprehensive guide to learning Node.js from basics to advanced concepts.
    - Scaling approaches
    - Performance considerations
 
+8. [RestAPI Introduction](07_RestAPI_Basics/RestAPIBasic.md)
+   - RestAPI defenition
+   - Accessing data with RestAPI
+   - Understanding Routing & HTTP method
+   - CORE RestAPI principles
+   - Understanding CORS
+
 ## 🚀 Getting Started
 
 1. Clone this repository
